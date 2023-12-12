@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="restaurant.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+</head>
+<body>
+    <div class="header" id="homelist">
+        <div class="row">
+            <div class="col">
+                <img src="logo.jpg">
+            </div>
+            <div class="col">
+                <button onclick="openMenu()"><i class="fa-solid fa-bars"
+                        style="color: #fefefe; cursor: pointer; display: block;"></i></button>
+                <div class="menu" id="menuitem">
+                    <ul>
+                        <li>Home</li>
+                        <li><a href="#aboutlist">About</a></li>
+                        <li><a href="#menulink">Menu</a></li>
+                        <li><a href="#facilitylist">Services</a></li>
+                        <li><a href="#cardlist">Order</a></li>
+                        <li><a href="#contactlist">Contact Us</a></li>
+                    </ul>
+                    <i onclick="closeMenu()" class="close">&times;</i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="txt font-effect-fire">
+        Hey! Buddy Welcome to Our Restaurant
+    </div>
+    <div class="txt2">
+        There are a lot of surprise in our Menu.Don't wait explore surprise now..
+        <br>
+        <a href="#menulink">Explore</a>
+    </div>
+    <div class="about" id="aboutlist">
+        <h1 style="padding-top: 40px; font-size: 50px; font-family: sofia;">About</h1>
+        <div class="bb"></div>
+        <div class="row1">
+
+            <div class="col1">
+                <img src="facility.jpg" style="width: 400px; border-radius: 10px; height: 400px;" alt="">
+            </div>
+            <hr style="left: 12px;">
+            <div class="col1">
+                <h1>Royal Restaurant</h1>
+                <h3>Since 1919</h3>
+                <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur.We only use seasonal ingredients.
+                    <br><br>
+
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                    est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="facility" id="facilitylist">
+        <h1 style="padding-top: 40px; font-size: 50px; font-family: sofia;">Our Facility</h1>
+        <div class="bb" style="width: 300px;"></div>
+        <div class="row1">
+            <div class="col1">
+                <h1 style="padding-top: -40px;">Best Chef</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime ducimus quod eius nulla repudiandae
+                    perspiciatis, cupiditate quibusdam eum eligendi magnam exercitationem placeat.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus eius maiores quo voluptatibus, rem
+                    modi voluptatum laudantium quibusdam aut officiis laborum illum.</p>
+            </div>
+            <hr style="width: 4.1px; position: relative; left: 12px;">
+            <div class="col1">
+                <img src="shef.jpg" style="width: 400px; border-radius: 10px; height: 400px;">
+            </div>
+        </div>
+
+        <div class="row1">
+            <div class="col1">
+                <img src="waiter.jpg" style="width: 400px;height: 400px; border-radius: 10px;" alt="">
+            </div>
+            <hr style="position: relative; left: 12px;"">
+            <div class=" col1">
+            <h1>Best Waiters</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ullam maxime accusantium delectus
+                voluptatibus consectetur maiores nobis, minus odit, optio veritatis vero.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt saepe id laudantium harum rem vel
+                natus, nam maiores blanditiis, fuga magni voluptas.</p>
+        </div>
+    </div>
+    <div class="row1">
+        <div class="col1">
+            <h1>Best For EveryOne</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium modi, totam minus ad nulla provident
+                in recusandae quo a magnam excepturi nemo.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptate repudiandae, earum illum aliquam
+                perspiciatis expedita magni maxime dolores debitis odit pariatur?</p>
+        </div>
+        <hr style="left: 12px;">
+        <div class="col1">
+            <img src="grp.webp" style="width: 400px; height: 400px;" alt="">
+        </div>
+    </div>
+    <div class="row1">
+        <div class="col1">
+            <img src="couple.jpg" style="width: 400px;height: 400px; border-radius: 10px;" alt="">
+        </div>
+        <hr style="position: relative; left: 12px;"">
+            <div class=" col1">
+        <h1>Best For Couples</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ullam maxime accusantium delectus
+            voluptatibus consectetur maiores nobis, minus odit, optio veritatis vero.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt saepe id laudantium harum rem vel natus,
+            nam maiores blanditiis, fuga magni voluptas.</p>
+    </div>
+    </div>
+    <div class="row1">
+        <div class="col1">
+            <h1>Home Delivery</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, corporis veritatis?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, ipsam laboriosam!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto fuga sapiente soluta minus ratione at
+                animi cum perspiciatis iste consectetur, incidunt rem ex!</p>
+            <br>
+            <a href="#" style="text-decoration: none; padding: 10px; transition: 0.3s;">Order Online</a>
+        </div>
+        <hr style="left: 8.8px;">
+        <div class="col1">
+            <img src="home.jpg" style="width: 400px; height: 400px;" alt="">
+
+        </div>
+        <div class="note">
+            <img src="allday.avif" style="width: 120px; height: 120px;">
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="menucard" id="menulink">
+
+        <h1 style="padding-top: 40px; font-size: 50px; font-family: sofia;">The Menu</h1>
+        <div class="dd"></div>
+
+        <div class="row2">
+            <div class="col1">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste sunt, aliquam odio inventore delectus
+                    veniam, nemo consectetur quisquam, voluptas illo quas architecto expedita?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil omnis unde laudantium, doloremque enim
+                    eveniet. Maiores iusto amet aliquam sit corporis quod at culpa magni perferendis, dolorum ipsum
+                    officia, esse placeat doloribus eos.</p>
+            </div>
+        </div>
+        <div class="table">
+            <table>
+                <tr>
+                    <th>S.No</th>
+                    <th>Dish Name</th>
+                    <th>Type</th>
+                    <th>Quantity</th>
+                    <th>Rate ₹</th>
+                </tr>
+                <tr>
+                    <td>1.</td>
+                    <td>Biryani</td>
+                    <td>Vegeterian</td>
+                    <td>1 Plate</td>
+                    <td>110/-INR</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Fresh Rise</td>
+                    <td>Vegeterian</td>
+                    <td>1 Plate</td>
+                    <td>90/-INR</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Fresh Rise</td>
+                    <td>Vegeterian</td>
+                    <td>1 Plate</td>
+                    <td>90/-INR</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Fresh Rise</td>
+                    <td>Vegeterian</td>
+                    <td>1 Plate</td>
+                    <td>90/-INR</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Fresh Rise</td>
+                    <td>Vegeterian</td>
+                    <td>1 Plate</td>
+                    <td>90/-INR</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Fresh Rise</td>
+                    <td>Vegeterian</td>
+                    <td>1 Plate</td>
+                    <td>90/-INR</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Fresh Rise</td>
+                    <td>Vegeterian</td>
+                    <td>1 Plate</td>
+                    <td>90/-INR</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Fresh Rise</td>
+                    <td>Vegeterian</td>
+                    <td>1 Plate</td>
+                    <td>90/-INR</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Fresh Rise</td>
+                    <td>Vegeterian</td>
+                    <td>1 Plate</td>
+                    <td>90/-INR</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Fresh Rise</td>
+                    <td>Vegeterian</td>
+                    <td>1 Plate</td>
+                    <td>90/-INR</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>Fresh Rise</td>
+                    <td>Vegeterian</td>
+                    <td>1 Plate</td>
+                    <td>90/-INR</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Fresh Rise</td>
+                    <td>Vegeterian</td>
+                    <td>1 Plate</td>
+                    <td>90/-INR</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>Fresh Rise</td>
+                    <td>Vegeterian</td>
+                    <td>1 Plate</td>
+                    <td>90/-INR</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>Fresh Rise</td>
+                    <td>Vegeterian</td>
+                    <td>1 Plate</td>
+                    <td>90/-INR</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>Fresh Rise</td>
+                    <td>Vegeterian</td>
+                    <td>1 Plate</td>
+                    <td>90/-INR</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>Fresh Rise</td>
+                    <td>Vegeterian</td>
+                    <td>1 Plate</td>
+                    <td>90/-INR</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>Fresh Rise</td>
+                    <td>Vegeterian</td>
+                    <td>1 Plate</td>
+                    <td>90/-INR</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>Fresh Rise</td>
+                    <td>Vegeterian</td>
+                    <td>1 Plate</td>
+                    <td>90/-INR</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>Fresh Rise</td>
+                    <td>Vegeterian</td>
+                    <td>1 Plate</td>
+                    <td>90/-INR</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>Fresh Rise</td>
+                    <td>Vegeterian</td>
+                    <td>1 Plate</td>
+                    <td>90/-INR</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>Fresh Rise</td>
+                    <td>Vegeterian</td>
+                    <td>1 Plate</td>
+                    <td>90/-INR</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>Fresh Rise</td>
+                    <td>Vegeterian</td>
+                    <td>1 Plate</td>
+                    <td>90/-INR</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>Fresh Rise</td>
+                    <td>Vegeterian</td>
+                    <td>1 Plate</td>
+                    <td>90/-INR</td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td>Fresh Rise</td>
+                    <td>Vegeterian</td>
+                    <td>1 Plate</td>
+                    <td>90/-INR</td>
+                </tr>
+                <tr>
+                    <td>24</td>
+                    <td>Fresh Rise</td>
+                    <td>Vegeterian</td>
+                    <td>1 Plate</td>
+                    <td>90/-INR</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>Fresh Rise</td>
+                    <td>Vegeterian</td>
+                    <td>1 Plate</td>
+                    <td>90/-INR</td>
+                </tr>
+            </table>
+            <div class="hot">
+                50%OFF
+            </div>
+        </div>
+    </div>
+    <div class="order" id="cardlist">
+        <h1>Want To Order Online</h1>
+        <div class="dd"></div>
+        <div class="row1">
+            <div class="col1">
+                <h2>Name </h2>
+                <h2>Address </h2>
+                <h2>Mobile No. </h2>
+                <h2>Food Name </h2>
+                <h2>Quantity </h2>
+                <h2>Date</h2>
+                <h2>Time</h2>
+                <h2>Total</h2>
+            </div>
+            <div class="col1">
+                <input type=" text" required>
+                <input type="text" required>
+                <input type="number" required>
+
+                <select name="food" required id="food">
+                    <option value="Select">Select</option>
+                    <option value="Rise">Rise</option>
+                    <option value="Daal">Daal</option>
+                    <option value="Biryani">Biryani</option>
+                    <option value="paneer">Paneer</option>
+                    <option value="paneer">Paneer Pratha</option>
+                    <option value="kadhai">Kadhai Paneer</option>
+                    <option value="value">Shaahi Paneer</option>
+                </select>
+                <input type="num" required>
+                <input type="date" required value="21-10-2023">
+                <input type="time" required time="21:23">
+                <input type="number">
+            </div>
+        </div>
+    </div>
+    <div class="payment">
+        <div class="row1">
+            <div class="col1">
+                <h2>Billing Address</h2>
+                <label for="name">Name</label>
+                <input type="text" required>
+                <label for="email">Email</label>
+                <input type="email" required>
+                <label for="Address">Address</label>
+                <input type="text" required>
+                <div class="cart">
+                    <div class="row21">
+                        <table>
+                            <tr>
+                                <th>S.No</th>
+                                <th>Food Name</th>
+                                <th>Amount</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Paneer</td>
+                                <td>110/-INR</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Roti</td>
+                                <td>20/-INR</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Butter</td>
+                                <td>50/-INR</td>
+                            </tr>
+                            <tfoot>
+
+                                <td colspan="2"><b>Total</b></td>
+                                <td><strong>180/-INR</strong></td>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col1">
+                <h2>Payment</h2>
+                <label for="card">Card Holder Name</label>
+                <input type="text" required>
+                <label for="card">Card Type</label>
+                <select name="card" id="card">
+                    <option value="Select">Select</option>
+                    <option value="vakue">Credit Card</option>
+                    <option value="baka">Debit Card</option>
+                    <option value="bala">Visa Card</option>
+                    <option value="baba">Master Card</option>
+                </select>
+                <label for="card">Card Number</label>
+                <input type="number" required maxlength="16" placeholder="1234-5678-1234">
+                <label for="cvv">CVV</label>
+                <input type="number" required placeholder="123">
+                <div class="row11">
+                    <div class="col11">
+                        <label for="month">Year Of Exp.</label>
+                        <select name="month" required id="nonth">
+                            <option value="Select">Select</option>
+                            <option value="#">2023</option>
+                            <option value="">2024</option>
+                            <option value="">2025</option>
+                            <option value="">2026</option>
+                            <option value="">2027</option>
+                            <option value="">2028</option>
+                            <option value="">2029</option>
+                            <option value="">2030</option>
+                            <option value="">2031</option>
+                            <option value="">2031</option>
+                            <option value="">2032</option>
+                            <option value="">2033</option>
+                        </select>
+                    </div>
+                    <div class="col11">
+                        <label for="nonth">Month</label>
+                        <select name="nonth" id="">
+                            <option value="Select">Select</option>
+                            <option value="">01</option>
+                            <option value="">02</option>
+                            <option value="">03</option>
+                            <option value="">04</option>
+                            <option value="">05</option>
+                            <option value="">06</option>
+                            <option value="">07</option>
+                            <option value="">08</option>
+                            <option value="">09</option>
+                            <option value="">10</option>
+                            <option value="">11</option>
+                            <option value="">12</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pp">
+            <p><input type="checkbox" checked>I agree to the Restaurant's <span href="#">Terms & Conditions!</span></p>
+        </div>
+        <div class="btn">
+            <div>Submit Order</div>
+        </div>
+    </div>
+    <div class="last">
+        <div class="last1">
+            <div class="textlast">
+                <h1>Why are you waiting ? Don't be late</h1>
+                <h2>Offer Ending Very Soon</h2>
+                <br><br>
+                <a href="#"
+                    style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 30px;">ORDER
+                    NOW</a>
+            </div>
+        </div>
+    </div>
+    <h1 style="margin-top: 60px; font-family: sofia;">What Our Custmer Says</h1>
+    <div class="dd"></div>
+    <div class="testimonial-grid">
+        <div class="testimonial-container">
+            <div class="testimonial-avatar">
+                <img src="shef.jpg" alt="">
+            </div>
+            <div class="testimonial-text">
+                <p class="testimonial-name">Himanshu Mishra</p>
+                <p class="testimonial-role">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas aliquam
+                    possimus alias earum placeat ab atque? Quos neque dolores pariatur doloremque molestiae?</p>
+                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></i></p>
+            </div>
+        </div>
+        <div class="testimonial-container">
+            <div class="testimonial-avatar">
+                <img src="facility.jpg" alt="">
+            </div>
+            <div class="testimonial-text">
+                <p class="testimonial-name">Atul Tripathi</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sint sit voluptas suscipit quia,
+                    nihil tempora animi, illum vel, ea obcaecati atque!</p>
+                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i></p>
+            </div>
+        </div>
+        <div class="testimonial-container">
+            <div class="testimonial-avatar">
+                <img src="resta.jpg" alt="">
+            </div>
+            <div class="testimonial-text">
+                <p class="testimonial-name">Rasmika Mandhana</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatum nostrum ea dolores
+                    voluptas velit doloribus tempora earum tempore quis.</p>
+                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+            </div>
+        </div>
+    </div>
+    <div class="footer" id="contactlist">
+
+        <div class="row111">
+            <div class="col111">
+                <h1 style="margin-top: -50px;">Contact Us</h1>
+                <p>Email :<br><a href="manshu010m@gmail.com">Manshu010m@gmail.com</a></p>
+                <p>Phone No.:<br>(+91)-78048-25835
+                    <br>
+                    (+91)-95847-67095<i class="fa-brands fa-whatsapp"></i>
+                </p>
+                <p>Follow Us</p>
+                <p><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram "><i
+                            class="fa-brands fa-twitter "></i></i><i class="fa-brands fa-discord"></i></p>
+            </div>
+            <div class="col111">
+                <h1 style="margin-top: 40px;">Leave A Message</h1>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea name="Message" placeholder="Leave A Message" id="" cols="30" rows="10"></textarea>
+                <div class="btn">
+                    <div>Send<i class="fa-regular fa-paper-plane"></i></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="toptop">
+            <a href="#homelist"><i class="fa-solid fa-arrow-up-long fa-beat"></i></a>
+        </div>
+    </div>
+    <script>
+        function openMenu() {
+            document.getElementById("menuitem").style.display = "block";
+
+        }
+        function closeMenu() {
+            document.getElementById("menuitem").style.display = "none";
+        }
+    </script>
+</body>
+
+
+</html>
